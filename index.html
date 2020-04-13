@@ -1,124 +1,216 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fast Banana</title>
+    <!--  main style sheet-->
+    <link rel="stylesheet" href="main.css" />
+    <!--  font awesome-->
+    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css" />
+    <!--  google fonts-->
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto"
+      rel="stylesheet"
+    />
+  </head>
 
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Fast Banana</title>
-  <!--  main style sheet-->
-  <link rel="stylesheet" href="main.css">
-  <!--  font awesome-->
-  <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
-  <!--  google fonts-->
-  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-  
-</head>
+  <body>
+    <!-------header section ------------->
+    <header>
+      <nav id="nav">
+        <div class="nav-logo">
+          <img src="./images/nav-logo.svg" alt="nav logo" />
+          <i class="fa fa-arrow-down" id="toggle-btn"></i>
+        </div>
+        <ul class="nav-links">
+          <li><a href="banner">Home</a></li>
+          <li><a href="services">Services</a></li>
+          <li><a href="portfolio">Portfolio</a></li>
+          <li><a href="about">About</a></li>
+          <li><a href="contact">Contact</a></li>
+          <li class="nav-icons">
+            <a href=""><i class="fa fa-facebook"></i></a>
+            <a href=""><i class="fa fa-instagram"></i></a>
+            <a href=""><i class="fa fa-twitter"></i></a>
+            <a href=""><i class="fa fa-linkedin"></i></a>
+          </li>
+        </ul>
+      </nav>
+      <div id="banner">
+        <div class="banner-text">
+          <h1>fast banana</h1>
+          <h3>this is what we do</h3>
+          <a href="#">start now</a>
+          <a href="#">learn more</a>
+        </div>
+      </div>
+    </header>
+    <!---end of header section ---------->
+    <!-----------Icon Section------------>
+    <section id="icon-section">
+      <a href=""><i class="fa fa-home"></i></a>
+      <a href=""><i class="fa fa-book"></i></a>
+      <a href=""><i class="fa fa-coffee"></i></a>
+      <a href=""><i class="fa fa-anchor"></i></a>
+    </section>
+    <!-----end of  Icon Section--------->
+    <!------skills section----->
+    <section id="skills">
+      <!----title------>
+      <div class="title">
+        <div class="title-icon">
+          <i class="fa fa-gears"></i>
+        </div>
+        <div class="title-text">
+          <h2 class="title-heading">skills we provide</h2>
+          <p class="title-subheading">Lorem ipsum dolor sit amet.</p>
+        </div>
+      </div>
+      <!---end of title-->
 
-<body>
- <!-------header section ------------->
-<header>
-  <nav id="nav">
-    <div class="nav-logo">
-      <img src="./images/nav-logo.svg" alt="nav logo">
-      <i class="fa fa-arrow-down" id="toggle-btn"></i>
-    </div>
-    <ul class="nav-links">
-      <li><a href="banner">Home</a></li>
-      <li><a href="services">Services</a></li>
-      <li><a href="portfolio">Portfolio</a></li>
-      <li><a href="about">About</a></li>
-      <li><a href="contact">Contact</a></li>
-      <li class="nav-icons">
-       <a href=""><i class="fa fa-facebook"></i></a>
-       <a href=""><i class="fa fa-instagram"></i></a>
-       <a href=""><i class="fa fa-twitter"></i></a>
-       <a href=""><i class="fa fa-linkedin"></i></a>
-      </li>
-    </ul>
-  </nav>
-  <div id="banner">
-    <div class="banner-text">
-      <h1>fast banana</h1>
-      <h3>this is what we do</h3>
-      <a href="#">start now</a>
-      <a href="#">learn more</a>
-    </div>
-  </div>
-</header>
- <!---end of header section ---------->
- <!-----------Icon Section------------>
-<section id="icon-section">
-  <a href=""><i class="fa fa-home"></i></a>
-  <a href=""><i class="fa fa-book"></i></a>
-  <a href=""><i class="fa fa-coffee"></i></a>
-  <a href=""><i class="fa fa-anchor"></i></a>
-</section>
- <!-----end of  Icon Section--------->
- <!------skills section----->
- <section id="skills">
-   <!----title------>
-   <div class="title">
-     <div class="title-icon">
-       <i class="fa fa-gears"></i>
-     </div>
-     <div class="title-text">
-       <h2 class="title-heading">skills we provide</h2>
-       <p class="title-subheading">Lorem ipsum dolor sit amet.</p>
-     </div>
-   </div>
-   <!---end of title-->
-
-   <div class="skills-center">
-     <!-------single article------->
-     <article class="skill">
-       <i class="fa fa-apple"></i>
-       <h3>Apple</h3>
-       <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aperiam, odio.</p>
-
-     </article>
-     <!-----end of single article----->
-          <!-------single article------->
-          <article class="skill">
-            <i class="fa fa-google"></i>
-            <h3>Google</h3>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aperiam, odio.</p>
-     
-          </article>
-          <!-----end of single article----->
-               <!-------single article------->
-     <article class="skill">
-      <i class="fa fa-android"></i>
-      <h3>Android</h3>
-      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aperiam, odio.</p>
-
-    </article>
-    <!-----end of single article----->
-         <!-------single article------->
-         <article class="skill">
-          <i class="fa fa-gear"></i>
-          <h3>Tools</h3>
-          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aperiam, odio.</p>
-   
+      <div class="skills-center">
+        <!-------single article------->
+        <article class="skill">
+          <i class="fa fa-apple"></i>
+          <h3>Apple</h3>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aperiam,
+            odio.
+          </p>
         </article>
         <!-----end of single article----->
-   </div>
- </section>
-  <!----end of skills section----->
-  <!-------form section----------->
-<section id="form">
-  <div class="form-content">
-    <h1 class="form-title">subscribe here</h1>
-    <form>
-      <input type="email" name="email" id="email" placeholder="Your email">
-      <input type="submit" id="submit" value="Submit">
-    </form>
-  </div>
-</section>
-  <!-----end of form section----->
- <!--------jquery cdn----------------->
- <!--jquery cdn-->
- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-<script src="./script.js"></script>
-</body>
+        <!-------single article------->
+        <article class="skill">
+          <i class="fa fa-google"></i>
+          <h3>Google</h3>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aperiam,
+            odio.
+          </p>
+        </article>
+        <!-----end of single article----->
+        <!-------single article------->
+        <article class="skill">
+          <i class="fa fa-android"></i>
+          <h3>Android</h3>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aperiam,
+            odio.
+          </p>
+        </article>
+        <!-----end of single article----->
+        <!-------single article------->
+        <article class="skill">
+          <i class="fa fa-gear"></i>
+          <h3>Tools</h3>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aperiam,
+            odio.
+          </p>
+        </article>
+        <!-----end of single article----->
+      </div>
+    </section>
+    <!----end of skills section----->
+    <!-------form section----------->
+    <section id="form">
+      <div class="form-content">
+        <h1 class="form-title">subscribe here</h1>
+        <form>
+          <input
+            type="email"
+            name="email"
+            id="email"
+            placeholder="Your email"
+          />
+          <input type="submit" id="submit" value="Submit" />
+        </form>
+      </div>
+    </section>
+    <!-----end of form section----->
 
+    <!---------future projects section------>
+    <section id="work">
+      <!----title------>
+      <div class="title">
+        <div class="title-icon">
+          <i class="fa fa-pencil-square-o"></i>
+        </div>
+        <div class="title-text">
+          <h2 class="title-heading">future projects</h2>
+          <p class="title-subheading">Lorem ipsum dolor sit amet.</p>
+        </div>
+      </div>
+      <!---end of title-->
+      <div class="work-center">
+        <div class="button-container">
+          <div class="button-group filter-button-group">
+            <button data-filter="*">all</button>
+            <button data-filter=".city">city</button>
+            <button data-filter=".country">country</button>
+            <button data-filter=".water">water</button>
+          </div>
+        </div>
+        <div class="picture-container">
+          <!------single work----------->
+          <article class="picture-item city">
+            <img src="./images/projects-city-1.jpeg" alt="work-1" />
+          </article>
+          <!----end single work-->
+          <!------single work----------->
+          <article class="picture-item country">
+            <img src="./images/projects-country-1.jpeg" alt="work-2" />
+          </article>
+          <!----end single work-->
+          <!------single work----------->
+          <article class="picture-item water">
+            <img src="./images/projects-water-1.jpeg" alt="work-3" />
+          </article>
+          <!----end single work-->
+          <!------single work----------->
+          <article class="picture-item city">
+            <img src="./images/projects-city-2.jpeg" alt="work-4" />
+          </article>
+          <!----end single work-->
+          <!------single work----------->
+          <article class="picture-item country">
+            <img src="./images/projects-country-2.jpeg" alt="work-5" />
+          </article>
+          <!----end single work-->
+          <!------single work----------->
+          <article class="picture-item water">
+            <img src="./images/projects-water-2.jpeg" alt="work-6" />
+          </article>
+          <!----end single work-->
+          <!------single work----------->
+          <article class="picture-item city">
+            <img src="./images/projects-city-3.jpeg" alt="work-7" />
+          </article>
+          <!----end single work-->
+          <!------single work----------->
+          <article class="picture-item country">
+            <img src="./images/projects-country-3.jpeg" alt="work-8" />
+          </article>
+          <!----end single work-->
+          <!------single work----------->
+          <article class="picture-item water">
+            <img src="./images/projects-water-3.jpeg" alt="work-9" />
+          </article>
+          <!----end single work-->
+        </div>
+      </div>
+    </section>
+    <!----------end of future projects sectio-->
+    <!--------jquery cdn----------------->
+    <!--jquery cdn-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <!-------images loaded---------->
+    <script src="https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.min.js"></script>
+    <!-------isotope---------------->
+    <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
+    <!-------iso js----------->
+    <script src="./iso.js"></script>
+    <script src="./script.js"></script>
+  </body>
 </html>
