@@ -24,4 +24,8 @@ $(document).ready(function (){
    }, "slow");
   });
   
+  // accordion
+  $( "#accordion" ).accordion({
+    animate: 1000
+  });
 })
